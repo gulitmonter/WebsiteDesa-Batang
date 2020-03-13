@@ -77,7 +77,7 @@
                         <div class="col-md-12">
                             <div class="d-flex align-items-center">
                                 <div class="site-branding flex-grow-1">
-                                    <a href="index.html">
+                                    <a href="<?=base_url('welcome/index')?>">
                                         <img class="logo-img" alt="optico" src="<?php echo base_url('assets/'); ?>images/icondesa.png">
                                     </a>
                                 </div>                                
@@ -98,7 +98,7 @@
                                                     <ul>
                                                         <li class="dropdown-submenu"><a href="<?=base_url('welcome/profil')?>">Sejarah Desa</a></li>
                                                         <li><a href="<?=base_url('welcome/vm')?>">Visi & Misi</a></li>
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Peta Wilayah</a></li>
+                                                        <li><a href="<?=base_url('welcome/peta')?>">Peta Wilayah</a></li>
                                                         <li><a href="<?=base_url('welcome/profil')?>">Produk Lokal</a></li>
                                                         <li><a href="<?=base_url('welcome/profil')?>">Prestasi</a></li> 
                                                     </ul>

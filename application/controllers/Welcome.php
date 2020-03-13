@@ -37,4 +37,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('hm/vm');
 		$this->load->view('hm/footer');
 	}
+	public function peta()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/peta');
+		$this->load->view('hm/footer');
+	}
+
 }
