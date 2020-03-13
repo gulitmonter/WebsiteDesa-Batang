@@ -96,39 +96,39 @@
                                                 <li class="dropdown">
                                                     <a href="#">Profil</a>
                                                     <ul>
-                                                        <li class="dropdown-submenu"><a href="<?=base_url('welcome/profil')?>">About</a></li>
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Treatments</a></li>
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Our Doctors</a></li>
-                                                        <li><a href="doctor-single.html">Doctor Single</a></li>
-                                                        <li><a href="faq.html">Faq</a></li> 
+                                                        <li class="dropdown-submenu"><a href="<?=base_url('welcome/profil')?>">Sejarah Desa</a></li>
+                                                        <li><a href="<?=base_url('welcome/vm')?>">Visi & Misi</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Peta Wilayah</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Produk Lokal</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Prestasi</a></li> 
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="Service.html">Berita</a>
+                                                    <a href="#">Berita</a>
                                                     <ul>
-                                                        <li><a href="service.html">Agregat Desa</a></li>
-                                                        <li><a href="service-2.html">Service 02</a></li> 
-                                                        <li><a href="service-detail.html">Service Detail</a></li> 
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Berita Desa</a></li> 
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Berita Pemkab</a></li> 
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Kegiatan Desa</a></li> 
                                                     </ul>
                                                 </li>
-                                                <li><a href="before-after.html">PPID</a></li>
+                                                <li><a href="<?=base_url('welcome/profil')?>">PPID</a></li>
                                                 <li class="dropdown">
-                                                    <a href="#">Blog</a>
-                                                    <ul>
-                                                        <li><a href="blog-large-image.html">Blog Large Image</a></li>
-                                                        <li><a href="blog-grid.html">Blog  Grid</a></li>
-                                                        <li><a href="blog-left-image.html">Blog Left Image</a></li>
-                                                        <li><a href="blog-detail.html">Blog Details</a></li>
-                                                    </ul>
+	                                                <a href="#">Agregat</a>
+	                                                <ul>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog Large Image</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog  Grid</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog Left Image</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog Details</a></li>
+	                                                </ul>
                                                 </li>
-                                                <li><a href="contact.html">JDIH</a></li>
+                                                <li><a href="<?=base_url('welcome/profil')?>">JDIH</a></li>
                                                 <li class="dropdown">
                                                     <a href="#">Media</a>
                                                     <ul>
-                                                        <li><a href="blog-large-image.html">Blog Large Image</a></li>
-                                                        <li><a href="blog-grid.html">Blog  Grid</a></li>
-                                                        <li><a href="blog-left-image.html">Blog Left Image</a></li>
-                                                        <li><a href="blog-detail.html">Blog Details</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Blog Large Image</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Blog  Grid</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Blog Left Image</a></li>
+                                                        <li><a href="<?=base_url('welcome/profil')?>">Blog Details</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
