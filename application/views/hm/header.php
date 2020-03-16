@@ -99,7 +99,7 @@
                                                         <li class="dropdown-submenu"><a href="<?=base_url('welcome/profil')?>">Sejarah Desa</a></li>
                                                         <li><a href="<?=base_url('welcome/vm')?>">Visi & Misi</a></li>
                                                         <li><a href="<?=base_url('welcome/peta')?>">Peta Wilayah</a></li>
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Produk Lokal</a></li>
+                                                        <li><a href="<?=base_url('welcome/produklokal')?>">Produk Lokal</a></li>
                                                         <li><a href="<?=base_url('welcome/profil')?>">Prestasi</a></li> 
                                                     </ul>
                                                 </li>

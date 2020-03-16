@@ -43,5 +43,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('hm/peta');
 		$this->load->view('hm/footer');
 	}
-
+	public function produklokal()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/produklokal');
+		$this->load->view('hm/footer');
+	}
 }

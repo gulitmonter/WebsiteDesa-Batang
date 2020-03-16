@@ -11,20 +11,16 @@
                                 <div class="col-md-12">
                                     <div class="blog-box blog-style-1 blog-single-detail">
                                         <div class="blog-thumbnail mb-4">
-                                            <img src="<?php echo base_url('assets/'); ?>images/blog/peta.jpg" style="width: 50% margin-left:auto; margin-right: auto;" alt="" />
+                                            <img src="<?php echo base_url('assets/'); ?>images/blog/peta.jpg"  class="mx-auto d-block" alt="" />
                                         </div>
                                         <div class="blog-entry-meta">
                                             <ul class="list-inline">
-                                                <li class="blog-categories"><a href="#">Paediatric</a></li>
                                                 <li class="blog-date"><i class="optico-icon-clock"></i><a href="#">September 29, 2017</a></li>
                                                 <li class="blog-author"><i class="optico-icon-user"></i><a href="#">admin</a></li>
                                             </ul>
                                         </div>
                                         <h3 class="blog-box-title"><a href="blog-detail.html">That’s why it is so important to see an ophthalmologist</a></h3>
                                         <p>If you have ever been interested in the way that your eyes. Suspendisse potenti. Fusce libero velit, tristique eu mauris vitae, convallis facilisis sapien. Mauris urna diam, fringilla sit amet eleifend id, commodo ac lorem. Curabitur at erat justo. Curabitur dapibus hendrerit dui, vel sagittis lectus laoreet et. Cras vitae purus dictum, fringilla urna sit amet, elementum leo. Etiam blandit enim eu arcu blandit sagittis. Aliquam ligula mi, luctus ut est non.</p>
-                                        <div class="link-btn">
-                                            <a class="skincolor" href="#">Read more<i class="fa fa-arrow-circle-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
