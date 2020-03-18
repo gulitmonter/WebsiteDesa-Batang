@@ -49,4 +49,34 @@ class Welcome extends CI_Controller {
 		$this->load->view('hm/produklokal');
 		$this->load->view('hm/footer');
 	}
+	public function prestasi()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/prestasi');
+		$this->load->view('hm/footer');
+	}
+	public function brtdesa()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/brtdesa');
+		$this->load->view('hm/footer');
+	}
+	public function brtpemkab()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/brtpemkab');
+		$this->load->view('hm/footer');
+	}
+	public function kependuk()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/kependuk');
+		$this->load->view('hm/footer');
+	}
+	public function kemiski()
+	{
+		$this->load->view('hm/header');
+		$this->load->view('hm/kemiski');
+		$this->load->view('hm/footer');
+	}	
 }

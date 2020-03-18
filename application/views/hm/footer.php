@@ -148,6 +148,427 @@
     <script src="<?php echo base_url('assets/'); ?>js/jquery.twentytwenty.js"></script>
     <!-- Scripts JS -->
     <script src="<?php echo base_url('assets/'); ?>js/scripts.js"></script>
+    <!-- chart js -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- KEPENDUDUKAN START -->
+    <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+   	google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        	["Element", "Density", { role: "style" } ],
+            ["Copper", 8.94, "#b87333"],
+           	["Silver", 10.49, "silver"],
+          	["Gold", 19.30, "gold"],
+            ["Platinum", 21.45, "color: #e5e4e2"]]);
+
+        var view = new google.visualization.DataView(data);
+        view.setColumns([0, 1,{ 
+    		calc: "stringify",
+            sourceColumn: 1,
+            type: "string",
+            role: "annotation" },2]);
+
+        var options = {
+            title: "Density of Precious Metals, in g/cm^3",
+            width: 450,
+            height: 250,
+            bar: {groupWidth: "80%"},
+            legend: { position: "none" },};
+
+        var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+        	chart.draw(view, options);}
+    </script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('aaa'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+	google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+      	function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('bbb'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+   	google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        	["Element", "Density", { role: "style" } ],
+            ["Copper", 8.94, "#b87333"],
+           	["Silver", 10.49, "silver"],
+          	["Gold", 19.30, "gold"],
+            ["Platinum", 21.45, "color: #e5e4e2"]]);
+
+        var view = new google.visualization.DataView(data);
+        view.setColumns([0, 1,{ 
+    		calc: "stringify",
+            sourceColumn: 1,
+            type: "string",
+            role: "annotation" },2]);
+
+        var options = {
+            title: "Density of Precious Metals, in g/cm^3",
+            width: 450,
+            height: 250,
+            bar: {groupWidth: "80%"},
+            legend: { position: "none" },};
+
+        var chart = new google.visualization.ColumnChart(document.getElementById("ccc"));
+        	chart.draw(view, options);}
+    </script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('ddd'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+	google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+      	function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('eee'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Dinosaur', 'Length'],
+          ['Acrocanthosaurus (top-spined lizard)', 12.2],
+          ['Albertosaurus (Alberta lizard)', 9.1],
+          ['Allosaurus (other lizard)', 12.2],
+          ['Apatosaurus (deceptive lizard)', 22.9],
+          ['Archaeopteryx (ancient wing)', 0.9],
+          ['Argentinosaurus (Argentina lizard)', 36.6],
+          ['Baryonyx (heavy claws)', 9.1],
+          ['Brachiosaurus (arm lizard)', 30.5],
+          ['Ceratosaurus (horned lizard)', 6.1],
+          ['Coelophysis (hollow form)', 2.7],
+          ['Compsognathus (elegant jaw)', 0.9],
+          ['Deinonychus (terrible claw)', 2.7],
+          ['Diplodocus (double beam)', 27.1],
+          ['Dromicelomimus (emu mimic)', 3.4],
+          ['Gallimimus (fowl mimic)', 5.5],
+          ['Mamenchisaurus (Mamenchi lizard)', 21.0],
+          ['Megalosaurus (big lizard)', 7.9],
+          ['Microvenator (small hunter)', 1.2],
+          ['Ornithomimus (bird mimic)', 4.6],
+          ['Oviraptor (egg robber)', 1.5],
+          ['Plateosaurus (flat lizard)', 7.9],
+          ['Sauronithoides (narrow-clawed lizard)', 2.0],
+          ['Seismosaurus (tremor lizard)', 45.7],
+          ['Spinosaurus (spiny lizard)', 12.2],
+          ['Supersaurus (super lizard)', 30.5],
+          ['Tyrannosaurus (tyrant lizard)', 15.2],
+          ['Ultrasaurus (ultra lizard)', 30.5],
+          ['Velociraptor (swift robber)', 1.8]]);
+
+        var options = {
+          title: 'Lengths of dinosaurs, in meters',
+          legend: { position: 'top', maxLines: 2 },
+    	  colors: ['#5C3292', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999'],
+    	  interpolateNulls: false,};
+
+        var chart = new google.visualization.Histogram(document.getElementById('fff'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('ggg'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <!-- KEPENDUDUKAN END -->
+    <!-- KEMISKINAN START -->
+    <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+   	google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        	["Element", "Density", { role: "style" } ],
+            ["Copper", 8.94, "#b87333"],
+           	["Silver", 10.49, "silver"],
+          	["Gold", 19.30, "gold"],
+            ["Platinum", 21.45, "color: #e5e4e2"]]);
+
+        var view = new google.visualization.DataView(data);
+        view.setColumns([0, 1,{ 
+    		calc: "stringify",
+            sourceColumn: 1,
+            type: "string",
+            role: "annotation" },2]);
+
+        var options = {
+            title: "Density of Precious Metals, in g/cm^3",
+            width: 450,
+            height: 250,
+            bar: {groupWidth: "80%"},
+            legend: { position: "none" },};
+
+        var chart = new google.visualization.ColumnChart(document.getElementById("kesejahte"));
+        	chart.draw(view, options);}
+    </script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('stt'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+	google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+      	function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('sp'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+   	google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        	["Element", "Density", { role: "style" } ],
+            ["Copper", 8.94, "#b87333"],
+           	["Silver", 10.49, "silver"],
+          	["Gold", 19.30, "gold"],
+            ["Platinum", 21.45, "color: #e5e4e2"]]);
+
+        var view = new google.visualization.DataView(data);
+        view.setColumns([0, 1,{ 
+    		calc: "stringify",
+            sourceColumn: 1,
+            type: "string",
+            role: "annotation" },2]);
+
+        var options = {
+            title: "Density of Precious Metals, in g/cm^3",
+            width: 450,
+            height: 250,
+            bar: {groupWidth: "80%"},
+            legend: { position: "none" },};
+
+        var chart = new google.visualization.ColumnChart(document.getElementById("bbm"));
+        	chart.draw(view, options);}
+    </script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('ddd'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+	google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+      	function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('sam'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Dinosaur', 'Length'],
+          ['Acrocanthosaurus (top-spined lizard)', 12.2],
+          ['Albertosaurus (Alberta lizard)', 9.1],
+          ['Allosaurus (other lizard)', 12.2],
+          ['Apatosaurus (deceptive lizard)', 22.9],
+          ['Archaeopteryx (ancient wing)', 0.9],
+          ['Argentinosaurus (Argentina lizard)', 36.6],
+          ['Baryonyx (heavy claws)', 9.1],
+          ['Brachiosaurus (arm lizard)', 30.5],
+          ['Ceratosaurus (horned lizard)', 6.1],
+          ['Coelophysis (hollow form)', 2.7],
+          ['Compsognathus (elegant jaw)', 0.9],
+          ['Deinonychus (terrible claw)', 2.7],
+          ['Diplodocus (double beam)', 27.1],
+          ['Dromicelomimus (emu mimic)', 3.4],
+          ['Gallimimus (fowl mimic)', 5.5],
+          ['Mamenchisaurus (Mamenchi lizard)', 21.0],
+          ['Megalosaurus (big lizard)', 7.9],
+          ['Microvenator (small hunter)', 1.2],
+          ['Ornithomimus (bird mimic)', 4.6],
+          ['Oviraptor (egg robber)', 1.5],
+          ['Plateosaurus (flat lizard)', 7.9],
+          ['Sauronithoides (narrow-clawed lizard)', 2.0],
+          ['Seismosaurus (tremor lizard)', 45.7],
+          ['Spinosaurus (spiny lizard)', 12.2],
+          ['Supersaurus (super lizard)', 30.5],
+          ['Tyrannosaurus (tyrant lizard)', 15.2],
+          ['Ultrasaurus (ultra lizard)', 30.5],
+          ['Velociraptor (swift robber)', 1.8]]);
+
+        var options = {
+          title: 'Lengths of dinosaurs, in meters',
+          legend: { position: 'top', maxLines: 2 },
+    	  colors: ['#5C3292', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999', '#1A8763', '#871B47', '#999999'],
+    	  interpolateNulls: false,};
+
+        var chart = new google.visualization.Histogram(document.getElementById('bab'));
+        chart.draw(data, options);
+      }
+    </script>
+    <!-- KEMISKINAN END -->
 </body>
 
 </html>

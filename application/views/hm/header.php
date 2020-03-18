@@ -91,7 +91,7 @@
                                         </div>
                                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul class="navigation clearfix">
-                                                <li class="dropdown active"><a href="index.html">Beranda</a>
+                                                <li class="dropdown"><a href="<?=base_url('welcome/index')?>">Beranda</a>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a href="#">Profil</a>
@@ -100,25 +100,26 @@
                                                         <li><a href="<?=base_url('welcome/vm')?>">Visi & Misi</a></li>
                                                         <li><a href="<?=base_url('welcome/peta')?>">Peta Wilayah</a></li>
                                                         <li><a href="<?=base_url('welcome/produklokal')?>">Produk Lokal</a></li>
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Prestasi</a></li> 
+                                                        <li><a href="<?=base_url('welcome/prestasi')?>">Prestasi</a></li> 
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a href="#">Berita</a>
                                                     <ul>
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Berita Desa</a></li> 
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Berita Pemkab</a></li> 
-                                                        <li><a href="<?=base_url('welcome/profil')?>">Kegiatan Desa</a></li> 
+                                                        <li><a href="<?=base_url('welcome/brtdesa')?>">Berita Desa</a></li> 
+                                                        <li><a href="<?=base_url('welcome/brtpemkab')?>">Berita Pemkab</a></li> 
                                                     </ul>
                                                 </li>
                                                 <li><a href="<?=base_url('welcome/profil')?>">PPID</a></li>
                                                 <li class="dropdown">
 	                                                <a href="#">Agregat</a>
 	                                                <ul>
-	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog Large Image</a></li>
-	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog  Grid</a></li>
-	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog Left Image</a></li>
-	                                                    <li><a href="<?=base_url('welcome/profil')?>">Blog Details</a></li>
+	                                                    <li><a href="<?=base_url('welcome/kependuk')?>">Kependudukan</a></li>
+	                                                    <li><a href="<?=base_url('welcome/kemiski')?>">Kemiskinan</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">Keuangan</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">IDM</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">RTLH</a></li>
+	                                                    <li><a href="<?=base_url('welcome/profil')?>">OMSPAN</a></li>
 	                                                </ul>
                                                 </li>
                                                 <li><a href="<?=base_url('welcome/profil')?>">JDIH</a></li>
